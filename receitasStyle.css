@@ -123,7 +123,7 @@
  }
 
  .receitas > div{
-    flex: 1 1 200px;
+    flex: 1 1 300px;
     margin: 10px;
  }
 
@@ -138,5 +138,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ img{
+  border-radius: 25%;
  }
   
