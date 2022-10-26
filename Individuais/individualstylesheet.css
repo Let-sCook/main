@@ -11,6 +11,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://blog.consumer.com.br/wp-content/uploads/2020/11/culin%C3%A1ria-regional-brasileira.jpg');
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
   }
   
   .docespudim {
@@ -19,11 +20,12 @@
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://cdn.sanity.io/images/jsdrzfkj/production/f8628cde79c56ad900d51056381e8ba2035ff05b-2121x1414.jpg?w=800&h=533&fit=crop');
     background-position: center;
     background-size: cover;
+    
   }
   
   .salgadosempadao {
     width: 100%;
-    height: 160vh;
+    height: 165vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://contrainformacion.es/wp-content/uploads/2021/11/veganismo.jpeg');
     background-position: center;
     background-size: cover;
@@ -44,7 +46,7 @@
   }
   .docestortalimao {
     width: 100%;
-    height: 170vh;
+    height: 175vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://cdn.sanity.io/images/jsdrzfkj/production/f8628cde79c56ad900d51056381e8ba2035ff05b-2121x1414.jpg?w=800&h=533&fit=crop');
     background-position: center;
     background-size: cover;
@@ -58,7 +60,7 @@
   }
   .salgadospaoqueijo {
     width: 100%;
-    height: 160vh;
+    height: 165vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://contrainformacion.es/wp-content/uploads/2021/11/veganismo.jpeg');
     background-position: center;
     background-size: cover;
