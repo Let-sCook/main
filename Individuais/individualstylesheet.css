@@ -96,12 +96,12 @@
   }
   
   header {
-    min-height: 20%;
+    min-height: 10%;
     width: 100%;
   }
   
   main {
-    min-height: 70%;
+    min-height: 80%;
     width: 100%;
   }
   
@@ -151,7 +151,6 @@
   
 
   .bg-box .empadao {
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
     border: 3px solid #f1f1f1;
@@ -168,7 +167,6 @@
   }
 
   .bg-box .pastelcamarao {
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
     border: 3px solid #f1f1f1;
@@ -185,7 +183,6 @@
   }
 
   .bg-box .paoqueijo {
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
     border: 3px solid #f1f1f1;
@@ -201,7 +198,6 @@
     
   }
   .bg-box .tortalimao {
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
     border: 3px solid #f1f1f1;
@@ -217,7 +213,6 @@
     
   }
   .bg-box .pavechocolate {
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
     border: 3px solid #f1f1f1;
@@ -232,24 +227,13 @@
     margin: 40px;
     
   }
-  .bg-box .coxinhadecostela {
-    background-color: rgb(0,0,0); 
+  .coxinhadecostela {
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
-    border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 66%;
-    left: 25%;
-    transform: translate(-50%, -35%);
-    z-index: 2;
-    height: 145%;
-    width: 50%;
-    padding: 350px 40px;
-    margin: 40px;
-    
+    border: solid white;
+    color: white;
   }
   .bg-box .pudim {
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0, 0.4);
     border-radius: 25px;
     border: 3px solid #f1f1f1;
@@ -281,15 +265,7 @@
   .bg-text {
     position: absolute;
     color: white;
-    top: 30%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    height: 40%;
-    width: 50%;
-    padding: 350px 40px;
     text-align: left;
-    margin: 40px;
     font-size: 25px;
   }
   .bg-text h2{
@@ -311,7 +287,8 @@
     padding: 2px;
     font-size: 16px;
   }
-  .tabela-ingredientes td{
+  .tabela-ingredientes td li{
+    text-align: center;
     color: white;
     padding: 2px;
     font-size: 15px;
@@ -344,8 +321,6 @@
     
   }
   .bg-image .pastelcamarao{
-
-
     border-radius: 25px;
     border: 3px solid #f1f1f1;
     position: absolute;
@@ -358,17 +333,8 @@
     
   }
   .bg-image .coxinhadecostela{
-
-
     border-radius: 25px;
     border: 3px solid #f1f1f1;
-    position: absolute;
-    top: 65%;
-    left: 31%;
-    transform: translate(50%, -50%);
-    padding: 20px 20px;
-    margin: 40px;
-    z-index: 2;
   }
   .bg-image .tortalimao{
 
@@ -404,15 +370,31 @@
 
   .container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     max-width: 100%;
-    margin: 0 auto;
     text-align: center;
+    
   }
 
    .flex > div{
-    flex: 1 1 300px;
-    margin: 10px;
+    flex: 1 1 150px;
+    margin: 100px;
  }
+
+ .coxinhadecostela li{
+text-align: left;
+list-style: none;
+ }
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+ .coxinhadecostela h3{
+  text-align: center;
+  list-style: none;
+   }
+  
