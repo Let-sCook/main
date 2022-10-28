@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.salgado {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://contrainformacion.es/wp-content/uploads/2021/11/veganismo.jpeg') fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+.doce {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://cdn.sanity.io/images/jsdrzfkj/production/f8628cde79c56ad900d51056381e8ba2035ff05b-2121x1414.jpg?w=800&h=533&fit=crop') fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body .menu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+body .menu li {
+    display: inline-block;
+}
+
+body .menu a {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+body .menu .ativo,
+body .menu a:hover {
+    color: #444;
+    background-color: white;
+}
+
+header {
+    min-height: 50px;
+    width: 100%;
+}
+
+main {
+    min-height: 200px;
+    width: 100%;
+}
+
+footer {
+    min-height: 100px;
+    width: 100%;
+}
+
+.principal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.principal h2 {
+    color: white;
+    font-size: 45px;
+}
+
+.principal h3 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.principal .links a {
+    color: white;
+    padding: 10px 18px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.principal .links a:hover {
+    color: #444;
+    background-color: white;
+}
+
+
+img {
+    border-radius: 15%;
+}
+
+#imgReceita {
+    border: 3px solid #f1f1f1;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    align-items: flex-end;
+
+}
+
+.flex>div {
+    flex: 1 1 150px;
+    margin: 100px;
+}
+
+.todos li {
+    text-align: left;
+    max-width: 800px;
+    line-break: anywhere;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.todos h3 {
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.todos h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    list-style: none;
+}
+
+.todos {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    border: solid white;
+    color: white;
+}
+
+.bg-text {
+    position: absolute;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+.bg-text h2 {
+    color: white;
+    font-size: 22px;
+}
+
+.bg-text h3 {
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.bg-text li {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+th {
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-spacing: 4px;
+}
+
+
+td {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border-spacing: 5px;
+}
+
+
+
+#submenu {
+    text-align: center;
+    list-style: none;
+    font-size: 21px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+body footer {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+}
